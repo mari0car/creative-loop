@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "generator": {
+    "default_persona_count": 5,
+    "ideas_per_persona": 3,
+    "max_parallel_agents": 6,
+    "include_combination_round": true,
+    "constraint_injection_probability": 0.3
+  },
+  "evaluator": {
+    "evaluator_count": 2,
+    "weights": {
+      "novelty": 0.25,
+      "feasibility": 0.25,
+      "relevance": 0.25,
+      "risk": 0.15,
+      "elegance": 0.10
+    },
+    "disagreement_threshold": 0.3
+  },
+  "meta_controller": {
+    "default_selection_mode": "balanced",
+    "top_k": 3,
+    "include_wild_card": true,
+    "quality_threshold": 0.7,
+    "max_iterations": 3
+  },
+  "experiment_runner": {
+    "enabled": true,
+    "default_effort_budget": "small"
+  },
+  "memory": {
+    "enabled": true,
+    "max_patterns_per_retrieval": 10,
+    "min_retrieval_confidence": 0.3
+  },
+  "self_optimization": {
+    "enabled": true,
+    "require_approval": true,
+    "auto_assess_after_session": true,
+    "min_sessions_before_optimize": 3
+  },
+  "human_oversight": {
+    "review_brief": true,
+    "review_selection": true
+  }
+}
