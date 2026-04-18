@@ -1,0 +1,12 @@
+{
+  "first_principles":        { "domains": {} },
+  "devils_advocate":         { "domains": {} },
+  "cross_domain_analogist":  { "domains": {} },
+  "naive_questioner":        { "domains": {} },
+  "constraint_inverter":     { "domains": {} },
+  "user_empathist":          { "domains": {} },
+  "minimalist":              { "domains": {} },
+  "futurist":                { "domains": {} },
+  "integrator":              { "domains": {} },
+  "provocateur":             { "domains": {} }
+}
