@@ -1,0 +1,6 @@
+# Creative Loop runtime data — session logs and experiment artifacts are machine-local
+# Ignore contents but keep the directory (via .gitkeep) so the structure clones intact
+.creative-loop/sessions/*
+!.creative-loop/sessions/.gitkeep
+.creative-loop/artifacts/*
+!.creative-loop/artifacts/.gitkeep
