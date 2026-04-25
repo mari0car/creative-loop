@@ -1,4 +1,4 @@
-# Creative Loop for Claude Code
+# Creative Loop 1
 
 Human creativity is a loop. You generate ideas, evaluate them, get stuck, throw out what doesn't work, and come back at the problem from a different angle — over and over until something clicks. It's iterative, it's messy, and it's irreducibly sequential: humans can't think in parallel.
 
